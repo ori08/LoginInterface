@@ -1,0 +1,84 @@
+table {
+    position: relative;
+
+    width: 400px;
+}
+
+th {
+    position: relative;
+
+    text-align: left;
+}
+
+table,
+th,
+td {
+    position: relative;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid rgb(141, 23, 23);
+}
+
+
+.logout {
+    position: relative;
+    width: 260px;
+    height: 40px;
+    background: #0786dbb3;
+    border-radius: 10px;
+    margin: 14px auto;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.tbox {
+
+    position: relative;
+    width: 260px;
+    height: 40px;
+    background: white;
+    border-radius: 10px;
+    margin: 10px auto;
+
+}
+
+
+.tableBox {
+    position: relative;
+
+    left: 35%;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+
+
+}
+
+h1 {
+    position: relative;
+
+
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+img {
+    min-height: 100%;
+    min-width: 1024px;
+    max-width: 100%;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
